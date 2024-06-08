@@ -34,8 +34,8 @@ fun ScreenNavigation() {
             LoginSreen(navController = navController)
         }
 
-//        composable(Screen.MOVIE_SCREEN.route) {
-//            MovieScreen(movies = movies.value)
-//        }
+        composable(Screen.MOVIE_SCREEN.route) {
+            MovieScreen()
+        }
     }
 }

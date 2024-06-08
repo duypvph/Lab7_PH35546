@@ -10,5 +10,5 @@ import duypvph46.fpoly.lab7_ph35546.ui.theme.screens.MovieScreen
 fun Bai1(){
     val viewModel: MainViewModel = viewModel()
     val movies = viewModel.movies.observeAsState(emptyList())
-    MovieScreen(movies = movies.value)
+    MovieScreen()
 }
